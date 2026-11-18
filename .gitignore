@@ -1,0 +1,17 @@
+# Probe results and capture artifacts. Results can contain paths, command lines and
+# account names of the machine they came from; keep them out of the repository.
+# The repository tracks no .json or .csv file. To add a sample, list it with a !path line.
+out/
+results/
+*.json
+*.csv
+*.pml
+*.etl
+*.dmp
+*.log
+
+# Editors and operating system files
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
